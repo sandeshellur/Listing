@@ -12,6 +12,8 @@ public class Category {
 	private Integer id;
 	
 	String name;
+	
+	String description; 
 
 	public Integer getId() {
 		return id;
@@ -21,6 +23,14 @@ public class Category {
 		this.id = id;
 	}
 
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
 	public String getName() {
 		return name;
 	}
@@ -37,6 +47,7 @@ public class Category {
 		super();
 		this.id = id;
 		this.name = name;
+		this.description = description;
 	}
 	
 }

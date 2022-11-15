@@ -12,6 +12,8 @@ public class Location {
 	private Integer id;
 	
 	String city;
+	
+	String state;
 
 	public Integer getId() {
 		return id;
@@ -29,6 +31,14 @@ public class Location {
 		this.city = city;
 	}
 	
+	public String getState() {
+		return state;
+	}
+
+	public void setState(String state) {
+		this.state = state;
+	}
+	
 	public Location() {
 
 	}
@@ -37,6 +47,7 @@ public class Location {
 		super();
 		this.id = id;
 		this.city = city;
+		this.state = state;
 	}
 
 }
